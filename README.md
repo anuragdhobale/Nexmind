@@ -93,6 +93,3 @@ NexMind is currently a **front-end/static web project**. Features such as authen
 
 M.Tech — Artificial Intelligence & Data Science
 
-## 📄 License
-
-No open-source license is currently specified. If you want others to legally reuse and modify the project, consider adding an appropriate license such as MIT.
