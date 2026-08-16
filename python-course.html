@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NexMind | Python for AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+                    NAVBAR
+========================================= -->
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                Nex<span>Mind</span>
+            </div>
+
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="courses.html">
+                        Courses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="roadmap.html">
+                        Roadmap
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pricing.html">
+                        Pricing
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <div class="nav-buttons">
+
+                <a href="#" class="login-btn">
+                    Login
+                </a>
+
+                <a href="pricing.html" class="nav-cta">
+                    Get Started
+                </a>
+
+            </div>
+
+
+            <button class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================================
+                COURSE HERO
+========================================= -->
+
+    <main>
+
+        <section class="learning-hero">
+
+            <div class="learning-hero-content">
+
+
+                <a href="courses.html" class="back-course">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    Back to Courses
+
+                </a>
+
+
+                <div class="learning-badge">
+
+                    <span>
+                        BEGINNER
+                    </span>
+
+                    <span>
+                        8 WEEKS
+                    </span>
+
+                    <span>
+                        15K+ STUDENTS
+                    </span>
+
+                </div>
+
+
+                <h1>
+                    Python for AI
+                </h1>
+
+
+                <p>
+
+                    Learn Python from scratch and build
+                    practical AI applications using
+                    industry-standard tools.
+
+                </p>
+
+
+                <div class="learning-actions">
+
+                    <a href="pricing.html" class="learning-primary">
+
+                        Start Learning
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+
+                    <button class="learning-secondary" id="saveCourse">
+
+                        <i class="fa-regular fa-bookmark"></i>
+
+                        Save Course
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="learning-hero-icon">
+
+                🐍
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+                COURSE LAYOUT
+========================================= -->
+
+        <section class="learning-layout">
+
+
+            <!-- =====================================
+                COURSE CONTENT
+    ====================================== -->
+
+            <aside class="course-sidebar">
+
+                <div class="sidebar-title">
+
+                    <span>
+                        COURSE CONTENT
+                    </span>
+
+                    <strong>
+                        7 Lessons
+                    </strong>
+
+                </div>
+
+
+                <div class="lesson-list">
+
+
+                    <button class="lesson active" data-lesson="0">
+
+                        <span class="lesson-number">
+                            01
+                        </span>
+
+                        <span class="lesson-info">
+
+                            <strong>
+                                Python Fundamentals
+                            </strong>
+
+                            <small>
+                                Introduction
+                            </small>
+
+                        </span>
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </button>
+
+
+                    <button class="lesson" data-lesson="1">
+
+                        <span class="lesson-number">
+                            02
+                        </span>
+
+                        <span class="lesson-info">
+
+                            <strong>
+                                Variables & Data Types
+                            </strong>
+
+                            <small>
+                                Core Python
+                            </small>
+
+                        </span>
+
+                        <i class="fa-solid fa-lock"></i>
+
+                    </button>
+
+
+                    <button class="lesson" data-lesson="2">
+
+                        <span class="lesson-number">
+                            03
+                        </span>
+
+                        <span class="lesson-info">
+
+                            <strong>
+                                Functions & Modules
+                            </strong>
+
+                            <small>
+                                Python Structure
+                            </small>
+
+                        </span>
+
+                        <i class="fa-solid fa-lock"></i>
+
+                    </button>
+
+
+                    <button class="lesson" data-lesson="3">
+
+                        <span class="lesson-number">
+                            04
+                        </span>
+
+                        <span class="lesson-info">
+
+                            <strong>
+                                NumPy
+                            </strong>
+
+                            <small>
+                                Numerical Computing
+                            </small>
+
+                        </span>
+
+                        <i class="fa-solid fa-lock"></i>
+
+                    </button>
+
+
+                    <button class="lesson" data-lesson="4">
+
+                        <span class="lesson-number">
+                            05
+                        </span>
+
+                        <span class="lesson-info">
+
+                            <strong>
+                                Pandas
+                            </strong>
+
+                            <small>
+                                Data Analysis
+                            </small>
+
+                        </span>
+
+                        <i class="fa-solid fa-lock"></i>
+
+                    </button>
+
+
+                    <button class="lesson" data-lesson="5">
+
+                        <span class="lesson-number">
+                            06
+                        </span>
+
+                        <span class="lesson-info">
+
+                            <strong>
+                                APIs & Data Handling
+                            </strong>
+
+                            <small>
+                                Real-world Data
+                            </small>
+
+                        </span>
+
+                        <i class="fa-solid fa-lock"></i>
+
+                    </button>
+
+
+                    <button class="lesson" data-lesson="6">
+
+                        <span class="lesson-number">
+                            07
+                        </span>
+
+                        <span class="lesson-info">
+
+                            <strong>
+                                Python AI Project
+                            </strong>
+
+                            <small>
+                                Final Project
+                            </small>
+
+                        </span>
+
+                        <i class="fa-solid fa-lock"></i>
+
+                    </button>
+
+
+                </div>
+
+
+                <div class="course-progress">
+
+                    <div class="progress-heading">
+
+                        <span>
+                            YOUR PROGRESS
+                        </span>
+
+                        <strong id="progressText">
+                            0%
+                        </strong>
+
+                    </div>
+
+
+                    <div class="progress-bar">
+
+                        <span id="progressBar"></span>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+
+
+            <!-- =====================================
+                LESSON CONTENT
+    ====================================== -->
+
+            <article class="lesson-content">
+
+
+                <div class="lesson-label">
+                    LESSON 01
+                </div>
+
+
+                <h2 id="lessonTitle">
+                    Python Fundamentals
+                </h2>
+
+
+                <p class="lesson-intro" id="lessonIntro">
+
+                    Python is one of the most popular
+                    programming languages used in AI,
+                    machine learning and data science.
+
+                </p>
+
+
+                <!-- Theory -->
+
+                <div class="theory-section">
+
+                    <h3>
+                        What is Python?
+                    </h3>
+
+
+                    <p>
+
+                        Python is a high-level,
+                        general-purpose programming language
+                        known for its simple syntax and
+                        readability.
+
+                    </p>
+
+
+                    <p>
+
+                        In Artificial Intelligence, Python
+                        is widely used because it provides
+                        powerful libraries for data analysis,
+                        machine learning, deep learning and
+                        automation.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Why Python -->
+
+                <div class="theory-section">
+
+                    <h3>
+                        Why Python for AI?
+                    </h3>
+
+
+                    <div class="benefit-grid">
+
+
+                        <div class="benefit-card">
+
+                            <i class="fa-solid fa-code"></i>
+
+                            <h4>
+                                Simple Syntax
+                            </h4>
+
+                            <p>
+                                Easy to learn and write.
+                            </p>
+
+                        </div>
+
+
+                        <div class="benefit-card">
+
+                            <i class="fa-solid fa-cubes"></i>
+
+                            <h4>
+                                Powerful Libraries
+                            </h4>
+
+                            <p>
+                                NumPy, Pandas, Scikit-learn
+                                and many more.
+                            </p>
+
+                        </div>
+
+
+                        <div class="benefit-card">
+
+                            <i class="fa-solid fa-brain"></i>
+
+                            <h4>
+                                AI Ready
+                            </h4>
+
+                            <p>
+                                Excellent ecosystem for
+                                machine learning and AI.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Example -->
+
+                <div class="theory-section">
+
+                    <h3>
+                        Your First Python Program
+                    </h3>
+
+
+                    <div class="code-box">
+
+                        <pre><code>print("Hello, NexMind!")
+
+name = "AI Learner"
+
+print("Welcome", name)</code></pre>
+
+                    </div>
+
+
+                    <p class="code-explanation">
+
+                        The <strong>print()</strong> function
+                        displays information on the screen.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- Key Takeaways -->
+
+                <div class="takeaway-box">
+
+                    <div class="takeaway-icon">
+
+                        <i class="fa-solid fa-lightbulb"></i>
+
+                    </div>
+
+
+                    <div>
+
+                        <h3>
+                            Key Takeaways
+                        </h3>
+
+                        <ul>
+
+                            <li>
+                                Python is beginner-friendly.
+                            </li>
+
+                            <li>
+                                Python is widely used in AI.
+                            </li>
+
+                            <li>
+                                Libraries make AI development easier.
+                            </li>
+
+                            <li>
+                                Practice is the best way to learn.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Navigation -->
+
+                <div class="lesson-navigation">
+
+                    <button class="lesson-prev" id="previousLesson" disabled>
+
+                        <i class="fa-solid fa-arrow-left"></i>
+
+                        Previous
+
+                    </button>
+
+
+                    <button class="lesson-next" id="nextLesson">
+
+                        Next Lesson
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =========================================
+                BOTTOM CTA
+========================================= -->
+
+        <section class="learning-cta">
+
+            <span>
+                READY TO BUILD?
+            </span>
+
+            <h2>
+                Turn Python Knowledge Into Real Skills.
+            </h2>
+
+            <p>
+                Complete the lessons and start building
+                your first AI project.
+            </p>
+
+            <a href="pricing.html">
+
+                Start Learning
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+                    FOOTER
+========================================= -->
+
+    <footer class="footer">
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 NexMind.
+                All Rights Reserved.
+            </p>
+
+            <div class="footer-legal">
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="python-course.js"></script>
+
+</body>
+
+</html>

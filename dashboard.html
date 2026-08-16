@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NexMind | Student Dashboard</title>
+
+    <!-- Existing NexMind CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body class="dashboard-page">
+
+
+    <!-- =========================================
+                    NAVBAR
+========================================= -->
+
+    <header class="dashboard-header">
+
+        <nav class="dashboard-navbar">
+
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="dashboard-logo">
+                Nex<span>Mind</span>
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <div class="dashboard-nav-links">
+
+                <a href="dashboard.html" class="active">
+                    Dashboard
+                </a>
+
+                <a href="courses.html">
+                    Courses
+                </a>
+
+                <a href="roadmap.html">
+                    Roadmap
+                </a>
+
+                <a href="pricing.html">
+                    Pricing
+                </a>
+
+            </div>
+
+
+            <!-- PROFILE -->
+
+            <div class="dashboard-profile">
+
+                <div class="profile-avatar">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="profile-info">
+
+                    <strong>
+                        Student
+                    </strong>
+
+                    <span>
+                        AI Learner
+                    </span>
+
+                </div>
+
+                <i class="fa-solid fa-chevron-down profile-arrow"></i>
+
+            </div>
+
+
+            <!-- MOBILE MENU -->
+
+            <button class="dashboard-menu" id="dashboardMenu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================================
+                DASHBOARD BODY
+========================================= -->
+
+    <main class="dashboard-container">
+
+
+        <!-- =====================================
+                WELCOME SECTION
+    ====================================== -->
+
+        <section class="dashboard-welcome">
+
+            <div>
+
+                <span class="dashboard-eyebrow">
+                    STUDENT DASHBOARD
+                </span>
+
+                <h1>
+                    Welcome back, <span>Student</span> 👋
+                </h1>
+
+                <p>
+                    Continue your journey into AI, Data Science
+                    and the future of technology.
+                </p>
+
+            </div>
+
+
+            <a href="courses.html" class="dashboard-primary-btn">
+
+                Explore Courses
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </section>
+
+
+
+        <!-- =====================================
+                STATISTICS
+    ====================================== -->
+
+        <section class="dashboard-stats">
+
+
+            <div class="dashboard-stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+
+                <div class="stat-details">
+
+                    <span>
+                        MY COURSES
+                    </span>
+
+                    <strong>
+                        4
+                    </strong>
+
+                    <small>
+                        Enrolled courses
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="dashboard-stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="stat-details">
+
+                    <span>
+                        OVERALL PROGRESS
+                    </span>
+
+                    <strong>
+                        68%
+                    </strong>
+
+                    <small>
+                        Learning completed
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="dashboard-stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+
+                <div class="stat-details">
+
+                    <span>
+                        LEARNING STREAK
+                    </span>
+
+                    <strong>
+                        7 Days
+                    </strong>
+
+                    <small>
+                        Keep it going!
+                    </small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="dashboard-stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+
+                <div class="stat-details">
+
+                    <span>
+                        COMPLETED
+                    </span>
+
+                    <strong>
+                        2
+                    </strong>
+
+                    <small>
+                        Courses completed
+                    </small>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+                MAIN DASHBOARD GRID
+    ====================================== -->
+
+        <section class="dashboard-grid">
+
+
+            <!-- =================================
+                CONTINUE LEARNING
+        ================================== -->
+
+            <div class="dashboard-main-column">
+
+
+                <div class="dashboard-section-heading">
+
+                    <div>
+
+                        <span>
+                            KEEP LEARNING
+                        </span>
+
+                        <h2>
+                            Continue Learning
+                        </h2>
+
+                    </div>
+
+                    <a href="courses.html">
+                        View All
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+
+                <!-- CONTINUE CARD -->
+
+                <div class="continue-learning-card">
+
+
+                    <div class="continue-course-icon python-icon">
+
+                        <i class="fa-brands fa-python"></i>
+
+                    </div>
+
+
+                    <div class="continue-course-info">
+
+                        <div class="continue-course-top">
+
+                            <span>
+                                PYTHON FOR AI
+                            </span>
+
+                            <strong>
+                                78%
+                            </strong>
+
+                        </div>
+
+
+                        <h3>
+                            Python for AI
+                        </h3>
+
+
+                        <p>
+                            Continue learning Python fundamentals
+                            and AI development.
+                        </p>
+
+
+                        <div class="dashboard-progress">
+
+                            <span style="width: 78%;"></span>
+
+                        </div>
+
+
+                        <div class="continue-bottom">
+
+                            <small>
+                                Lesson 6 of 7
+                            </small>
+
+
+                            <a href="python-course.html" class="continue-btn">
+
+                                Continue
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================
+                    MY COURSES
+            ================================== -->
+
+                <div class="dashboard-section-heading courses-heading">
+
+                    <div>
+
+                        <span>
+                            YOUR LEARNING
+                        </span>
+
+                        <h2>
+                            My Courses
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="dashboard-course-grid">
+
+
+                    <!-- PYTHON -->
+
+                    <div class="dashboard-course-card">
+
+                        <div class="course-card-icon python-icon">
+
+                            <i class="fa-brands fa-python"></i>
+
+                        </div>
+
+                        <span class="course-level">
+                            BEGINNER
+                        </span>
+
+                        <h3>
+                            Python for AI
+                        </h3>
+
+                        <p>
+                            Build a strong Python foundation
+                            for AI development.
+                        </p>
+
+                        <div class="mini-progress">
+
+                            <span style="width: 78%;"></span>
+
+                        </div>
+
+                        <div class="course-card-footer">
+
+                            <span>
+                                78% complete
+                            </span>
+
+                            <a href="python-course.html">
+                                Open
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- MACHINE LEARNING -->
+
+                    <div class="dashboard-course-card">
+
+                        <div class="course-card-icon ml-icon">
+
+                            <i class="fa-solid fa-brain"></i>
+
+                        </div>
+
+                        <span class="course-level">
+                            INTERMEDIATE
+                        </span>
+
+                        <h3>
+                            Machine Learning
+                        </h3>
+
+                        <p>
+                            Learn algorithms, models and
+                            predictive techniques.
+                        </p>
+
+                        <div class="mini-progress">
+
+                            <span style="width: 42%;"></span>
+
+                        </div>
+
+                        <div class="course-card-footer">
+
+                            <span>
+                                42% complete
+                            </span>
+
+                            <a href="ml-course.html">
+                                Open
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DATA SCIENCE -->
+
+                    <div class="dashboard-course-card">
+
+                        <div class="course-card-icon ds-icon">
+
+                            <i class="fa-solid fa-chart-line"></i>
+
+                        </div>
+
+                        <span class="course-level">
+                            INTERMEDIATE
+                        </span>
+
+                        <h3>
+                            Data Science
+                        </h3>
+
+                        <p>
+                            Analyze, visualize and extract
+                            insights from data.
+                        </p>
+
+                        <div class="mini-progress">
+
+                            <span style="width: 20%;"></span>
+
+                        </div>
+
+                        <div class="course-card-footer">
+
+                            <span>
+                                20% complete
+                            </span>
+
+                            <a href="data-science-course.html">
+                                Open
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- GENERATIVE AI -->
+
+                    <div class="dashboard-course-card">
+
+                        <div class="course-card-icon genai-icon">
+
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                        </div>
+
+                        <span class="course-level">
+                            ADVANCED
+                        </span>
+
+                        <h3>
+                            Generative AI
+                        </h3>
+
+                        <p>
+                            Learn LLMs, RAG, embeddings and
+                            AI agents.
+                        </p>
+
+                        <div class="mini-progress">
+
+                            <span style="width: 5%;"></span>
+
+                        </div>
+
+                        <div class="course-card-footer">
+
+                            <span>
+                                5% complete
+                            </span>
+
+                            <a href="genai-course.html">
+                                Open
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================
+                RIGHT SIDEBAR
+        ================================== -->
+
+            <aside class="dashboard-sidebar">
+
+
+                <!-- DAILY GOAL -->
+
+                <div class="dashboard-side-card daily-goal">
+
+                    <div class="side-card-heading">
+
+                        <span>
+                            TODAY'S GOAL
+                        </span>
+
+                        <i class="fa-solid fa-bullseye"></i>
+
+                    </div>
+
+
+                    <div class="goal-circle">
+
+                        <strong>
+                            70%
+                        </strong>
+
+                        <span>
+                            Complete
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Keep your momentum!
+                    </h3>
+
+                    <p>
+                        Complete one more lesson today
+                        to maintain your learning streak.
+                    </p>
+
+
+                    <a href="python-course.html" class="side-action-btn">
+
+                        Continue Lesson
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- QUICK LINKS -->
+
+                <div class="dashboard-side-card">
+
+                    <div class="side-card-heading">
+
+                        <span>
+                            QUICK ACCESS
+                        </span>
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                    </div>
+
+
+                    <div class="quick-links">
+
+
+                        <a href="courses.html">
+
+                            <i class="fa-solid fa-book"></i>
+
+                            <span>
+                                Browse Courses
+                            </span>
+
+                            <i class="fa-solid fa-chevron-right"></i>
+
+                        </a>
+
+
+                        <a href="roadmap.html">
+
+                            <i class="fa-solid fa-route"></i>
+
+                            <span>
+                                View Roadmap
+                            </span>
+
+                            <i class="fa-solid fa-chevron-right"></i>
+
+                        </a>
+
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-folder-open"></i>
+
+                            <span>
+                                My Projects
+                            </span>
+
+                            <i class="fa-solid fa-chevron-right"></i>
+
+                        </a>
+
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-certificate"></i>
+
+                            <span>
+                                Certificates
+                            </span>
+
+                            <i class="fa-solid fa-chevron-right"></i>
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- LEARNING TIP -->
+
+                <div class="dashboard-side-card learning-tip">
+
+                    <div class="tip-icon">
+
+                        <i class="fa-solid fa-lightbulb"></i>
+
+                    </div>
+
+
+                    <span>
+                        NEXMIND TIP
+                    </span>
+
+
+                    <h3>
+                        Learn by building.
+                    </h3>
+
+
+                    <p>
+                        Don't just watch tutorials.
+                        Build small projects after
+                        every major concept.
+                    </p>
+
+                </div>
+
+
+            </aside>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+                RECENT ACTIVITY
+    ====================================== -->
+
+        <section class="recent-activity">
+
+
+            <div class="dashboard-section-heading">
+
+                <div>
+
+                    <span>
+                        YOUR ACTIVITY
+                    </span>
+
+                    <h2>
+                        Recent Activity
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="activity-list">
+
+
+                <div class="activity-item">
+
+                    <div class="activity-icon completed">
+
+                        <i class="fa-solid fa-check"></i>
+
+                    </div>
+
+                    <div class="activity-text">
+
+                        <strong>
+                            Completed "Python Functions"
+                        </strong>
+
+                        <span>
+                            Python for AI · 2 hours ago
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="activity-item">
+
+                    <div class="activity-icon">
+
+                        <i class="fa-solid fa-play"></i>
+
+                    </div>
+
+                    <div class="activity-text">
+
+                        <strong>
+                            Started "Model Evaluation"
+                        </strong>
+
+                        <span>
+                            Machine Learning · Yesterday
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="activity-item">
+
+                    <div class="activity-icon">
+
+                        <i class="fa-solid fa-bookmark"></i>
+
+                    </div>
+
+                    <div class="activity-text">
+
+                        <strong>
+                            Saved "RAG Systems"
+                        </strong>
+
+                        <span>
+                            Generative AI · 2 days ago
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+                    FOOTER
+========================================= -->
+
+    <footer class="dashboard-footer">
+
+        <div>
+
+            <strong>
+                Nex<span>Mind</span>
+            </strong>
+
+            <p>
+                Learn AI. Build the Future.
+            </p>
+
+        </div>
+
+
+        <p>
+            © 2026 NexMind. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>
