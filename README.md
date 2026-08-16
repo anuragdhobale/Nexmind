@@ -1,4 +1,4 @@
-# NexMind — AI Learning Platform
+# NexMind : AI Learning Platform
 
 NexMind is a responsive front-end learning platform designed to help students explore and learn **Artificial Intelligence, Data Science, Machine Learning, Generative AI, and Python for AI**.
 
